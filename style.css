@@ -35,6 +35,12 @@ footer { background:#222; color:#fff; padding:10px 0; }
 
 /* STEG 3: NAV */
 /* Lägg till navigation-stilar enligt UPPGIFTER.md */
+/* NAV */
+nav { background:#333; }
+.nav-inner { max-width:900px; margin:0 auto; padding:8px 15px; }
+.nav-link { color:#fff; margin-right:18px; text-decoration:none; padding:6px 8px; border-radius:4px; display:inline-block; }
+.nav-link:hover, .nav-link:focus { background:rgba(255,255,255,0.08); transform:translateY(-2px); transition:all 150ms ease; }
+.nav-link:focus { outline:2px solid #fff; outline-offset:3px; }
 
 /* STEG 4: MAIN + BOXES */
 /* Lägg till main och projekt-box stilar enligt UPPGIFTER.md */
