@@ -44,6 +44,12 @@ nav { background:#333; }
 
 /* STEG 4: MAIN + BOXES */
 /* Lägg till main och projekt-box stilar enligt UPPGIFTER.md */
+/* MAIN + BOXES */
+main { background:#fff; margin:20px auto; max-width:900px; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.06); }
+.info-box { border:2px solid #4a90e2; padding:12px; background:#eaf6ff; }
+.projects-grid { display:flex; gap:18px; flex-wrap:wrap; }
+.project-box { flex:1 1 240px; border:2px solid #333; padding:12px; background:#fafafa; transition:box-shadow 200ms ease, transform 200ms ease; }
+.project-box:hover { box-shadow:0 8px 20px rgba(0,0,0,0.12); transform:translateY(-6px); }
 
 /* STEG 6: EXTRA EFFEKTER */
 /* Lägg till visuella förbättringar enligt UPPGIFTER.md */
