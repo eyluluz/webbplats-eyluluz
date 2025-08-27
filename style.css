@@ -53,6 +53,9 @@ main { background:#fff; margin:20px auto; max-width:900px; padding:20px; box-sha
 
 /* STEG 6: EXTRA EFFEKTER */
 /* Lägg till visuella förbättringar enligt UPPGIFTER.md */
+/* EXTRA EFFEKTER */
+.project-box { transition: transform 200ms ease, box-shadow 200ms ease; }
+.project-box:focus-within { box-shadow:0 10px 30px rgba(0,0,0,0.15); transform:translateY(-8px); }
 
 /* STEG 7: RESPONSIV */
 /* Lägg till media queries enligt UPPGIFTER.md */
