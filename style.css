@@ -59,6 +59,11 @@ main { background:#fff; margin:20px auto; max-width:900px; padding:20px; box-sha
 
 /* STEG 7: RESPONSIV */
 /* Lägg till media queries enligt UPPGIFTER.md */
+/* RESPONSIV */
+@media (max-width:600px) {
+  .projects-grid { flex-direction:column; }
+  .nav-inner { text-align:center; }
+}
 
 /* STEP 6: VISUALEFFEKTER */
 
