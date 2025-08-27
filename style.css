@@ -24,6 +24,14 @@ body {
 
 /* STEG 2: HEADER + FOOTER */
 /* Lägg till stilar för header och footer enligt UPPGIFTER.md */
+/* HEADER + FOOTER */
+header { background:#4a90e2; color:#fff; padding:20px 0; }
+.header-inner { max-width:900px; margin:0 auto; padding:0 15px; }
+header h1 { margin:0; }
+header .subtitle { margin:4px 0 0; font-size:0.95rem; opacity:0.9; }
+
+footer { background:#222; color:#fff; padding:10px 0; }
+.footer-inner { max-width:900px; margin:0 auto; padding:0 15px; text-align:center; }
 
 /* STEG 3: NAV */
 /* Lägg till navigation-stilar enligt UPPGIFTER.md */
