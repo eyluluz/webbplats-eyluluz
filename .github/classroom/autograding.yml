@@ -1,0 +1,71 @@
+# Autograder för stegvis HTML/CSS-övning
+# Testar att rätt filer finns och att grundläggande HTML/CSS-struktur är korrekt
+
+name: "TE4 HTML/CSS Stegvis Autogradering"
+
+tests:
+  - name: "index.html finns"
+    setup: ''
+    run: 'test -f index.html'
+    input: ''
+    output: ''
+    timeout: 10
+    points: 1
+
+  - name: "style.css finns"
+    setup: ''
+    run: 'test -f style.css'
+    input: ''
+    output: ''
+    timeout: 10
+    points: 1
+
+  - name: "kontakt.html finns"
+    setup: ''
+    run: 'test -f kontakt.html'
+    input: ''
+    output: ''
+    timeout: 10
+    points: 1
+
+  - name: "reflektion.md finns"
+    setup: ''
+    run: 'test -f reflektion.md'
+    input: ''
+    output: ''
+    timeout: 10
+    points: 1
+
+  - name: "index.html har <header> och <footer>"
+    setup: ''
+    run: 'grep -q "<header>" index.html && grep -q "<footer>" index.html'
+    input: ''
+    output: ''
+    timeout: 10
+    points: 2
+
+  - name: "style.css har .project-box och media query"
+    setup: ''
+    run: 'grep -q ".project-box" style.css && grep -q "@media" style.css'
+    input: ''
+    output: ''
+    timeout: 10
+    points: 2
+
+  - name: "kontakt.html har <main>"
+    setup: ''
+    run: 'grep -q "<main>" kontakt.html'
+    input: ''
+    output: ''
+    timeout: 10
+    points: 1
+
+  - name: "reflektion.md har minst 3 rader"
+    setup: ''
+    run: 'test $(wc -l < reflektion.md) -ge 3'
+    input: ''
+    output: ''
+    timeout: 10
+    points: 1
+
+# Total: 10 poäng

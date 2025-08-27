@@ -1,0 +1,42 @@
+/* STYLE.CSS — startstilar för stegvis HTML/CSS-övning */
+
+/* BASE - grundläggande stilar */
+:root {
+    --max-width: 900px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #222;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* STEG 2: HEADER + FOOTER */
+/* Lägg till stilar för header och footer enligt UPPGIFTER.md */
+
+/* STEG 3: NAV */
+/* Lägg till navigation-stilar enligt UPPGIFTER.md */
+
+/* STEG 4: MAIN + BOXES */
+/* Lägg till main och projekt-box stilar enligt UPPGIFTER.md */
+
+/* STEG 6: EXTRA EFFEKTER */
+/* Lägg till visuella förbättringar enligt UPPGIFTER.md */
+
+/* STEG 7: RESPONSIV */
+/* Lägg till media queries enligt UPPGIFTER.md */
+
+/* STEP 6: VISUALEFFEKTER */
+
+/* Media queries kommer i STEP 7 */
